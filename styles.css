@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: black;
+}
+body{
+    background-color: purple;
+}
+/*.open{
+    text-align: left;
+}*/
+.topic{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+ }   
+    
+
+.container> div{
+    margin: 10px;
+    background-color: goldenrod;
+    width: 250px;
+    height: 375px;
+    font-weight: bold;
+}
+   
+.button{
+    text-align: center;
+}
+/*#taskList {
+    display: flex;
+    height: 20px;
+
+}*/
+.dyncs{
+    /*display: flex;*/
+    /*align-items: stretch;*/
+    list-style: none;
+   /* flex-direction: column;*/
+   /* padding-left: 0px;*/
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+    /*text-indent: 0px;*/
+    height: 55px;
+    background-color: white;
+   /* width: 250px;*/
+}
